@@ -123,7 +123,7 @@ var heightMark = 1.69; // meters
 //var heightJohn = 1.95;
 
 //var BMIMark = massMark / (heightMark * heightMark);
-//var BMIJohn = massJohn / (heightJohn * heightJohn);
+//var BMIJohn = massJohn / (heightJohn * heightJohn);g
 //console.log(BMIMark, BMIJohn)
 
 //var markHigherBMI = BMIMark > BMIJohn;
