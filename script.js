@@ -127,84 +127,71 @@ Operator Precedence
 
 //Height
 
-let heightJohn = 4.5; //meters
-let heightMark = 6.5; //meters
+// let heightJohn = 4.5; //meters
+// let heightMark = 6.5; //meters
 
-// Mass
-let massJohn = 70; //kg
-let massMark = 90; //kg
+// // Mass
+// let massJohn = 70; //kg
+// let massMark = 90; //kg
 
-// Calculate BMI - BMI = mass / height^2 = mass / (height * height).
+// // Calculate BMI - BMI = mass / height^2 = mass / (height * height).
 
-let JohnBMI = massJohn / heightJohn^2;
-console.log(JohnBMI);
+// let JohnBMI = massJohn / heightJohn^2;
+// console.log(JohnBMI);
 
-let MarkBMI = massMark / heightMark^2;
-console.log(MarkBMI);
+// let MarkBMI = massMark / heightMark^2;
+// console.log(MarkBMI);
 
-let markHigherBMI = MarkBMI > JohnBMI;
-console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
-
-
+// let markHigherBMI = MarkBMI > JohnBMI;
+// console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 
 
 
+// If / Else statements
 
+let firstName = 'John';
+let civilStatus = 'single';
 
+if (civilStatus === 'married') {
+    console.log(firstName + 'is married!');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let isMarried = true;
+if (isMarried) {
+    console.log(firstName + ' is married!');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)');
+}
 
 
 
 
 
-/*** IF ELSE STATEMENT */
 
 
-// var firstName = 'John';
-// var civilStatus = 'single';
-
-// if (civilStatus === 'married') {
-//     console.log(firstName + 'is married!');
-// } else {
-//     console.log(firstName + ' will hopefully marry soon :)');
-// }
-
-// var isMarried = true;
-// if (isMarried) {
-//     console.log(firstName + 'is married');
-// } else {
-//     console.log(firstName + 'will hopefully marry soon :)');
-// }
 
 
-// var massMark = 78; // kg
-// var heightMark = 1.69; // meters
 
-// var massJohn = 92;
-// var heightJohn = 1.95;
 
-// var BMIMark = massMark / (heightMark * heightMark);
-// var BMIJohn = massJohn / (heightJohn * heightJohn);
 
-// if (BMIMark > BMIJohn) {
-//     console.log('Mark\'s BMI is higher than John\'s.');
-// } else {
-//     console.log('John\'s BMI is higher than Marks\'s.');
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
