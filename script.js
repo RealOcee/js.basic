@@ -95,53 +95,77 @@
 Operator Precedence
 */
 
-var now = 2022;
-var yearJohn = 2000;
-var yearMark = 2002;
+// let now = 2018;
+// let yearJohn = 1989;
+// let fullAge = 18;
 
-var isfullAge = 
+// //Multiple operators
+// let FullAge = now - yearJohn >= fullAge;
+// console.log(FullAge);
 
+// // Grouping
+// let ageJohn = now - yearJohn;
+// let ageMark = 35;
+// let average = (ageJohn + ageMark) / 2;
+// console.log(average);
 
+// //Multiple grouping
+// let x, y;
+// x = y = (3 + 3) * 6 - 1;
+// console.log(x, y);
 
-
-
-
-
-
-
-
-
-
-
-
-// // Multiple assignments
-// var x, y;
-// x = y = (3 + 5) * 4 - 6; //8 * 4 - 6 // 32 - 6 // 26
-// console.log(x, y)
-
-// // More operators
+// //More operation
 // x *= 2;
 // console.log(x);
-// x += 10;
+// x**
 // console.log(x);
-// x--;
-// console.log(x);
-// /*/
 
 
-//var massMark = 78; // kg
-// var heightMark = 1.69; // meters
 
-//var massJohn = 92;
-//var heightJohn = 1.95;
 
-//var BMIMark = massMark / (heightMark * heightMark);
-//var BMIJohn = massJohn / (heightJohn * heightJohn);g
-//console.log(BMIMark, BMIJohn)
+// Coding challenge 
 
-//var markHigherBMI = BMIMark > BMIJohn;
-//console.log ('Is Mark\'s BMI higher than John\'s? '+ markHigherBMI
-/*/
+//Height
+
+let heightJohn = 4.5; //meters
+let heightMark = 6.5; //meters
+
+// Mass
+let massJohn = 70; //kg
+let massMark = 90; //kg
+
+// Calculate BMI - BMI = mass / height^2 = mass / (height * height).
+
+let JohnBMI = massJohn / heightJohn^2;
+console.log(JohnBMI);
+
+let MarkBMI = massMark / heightMark^2;
+console.log(MarkBMI);
+
+let markHigherBMI = MarkBMI > JohnBMI;
+console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
