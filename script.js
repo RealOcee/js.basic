@@ -260,20 +260,36 @@ Operator Precedence
 // Falsy values: undefined, null, 0, '', NaN
 // Truthy values: NOT falsy values
 
-let height;
+// let height;
 
-height = 23;
-if(height || height === 0) {
-    console.log('variable is defined');
+// height = 23;
+// if(height || height === 0) {
+//     console.log('variable is defined');
+// } else {
+//     console.log('variable has NOT been defined');
+// }
+
+// // Equality operators
+// if(height === '23') {
+//     console.log('The == operator does type coercion!');
+// }
+
+
+
+
+//Coding Challenge 
+
+const ScoreJohn = (89 + 120 + 103) / 3;
+const ScoreMike = (116 + 94 + 123) / 3;
+console.log(ScoreJohn, ScoreMike);
+
+if(ScoreJohn > ScoreMike) {
+    console.log('John\'s team wins with ' +   ScoreJohn + ' points ');
+} else if (ScoreMike > ScoreJohn) {
+    console.log('Mike\'s team wins with ' +  ScoreMike + ' points');
 } else {
-    console.log('variable has NOT been defined');
+    console.log('There is a draw');
 }
-
-// Equality operators
-if(height === '23') {
-    console.log('The == operator does type coercion!');
-}
-
 
 
 
