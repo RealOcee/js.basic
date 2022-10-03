@@ -278,20 +278,30 @@ Operator Precedence
 
 
 //Coding Challenge 
+ 
+// const scoreJohn = (89 + 120 + 103) / 3
+// const scoreMike = (116 + 94 + 123) / 3
+// const scoreMary = (97 + 134 + 105) / 3
+// console.log(scoreJohn, scoreMike, scoreMary);
 
-const ScoreJohn = (89 + 120 + 103) / 3;
-const ScoreMike = (116 + 94 + 123) / 3;
-console.log(ScoreJohn, ScoreMike);
-
-if(ScoreJohn > ScoreMike) {
-    console.log('John\'s team wins with ' +   ScoreJohn + ' points ');
-} else if (ScoreMike > ScoreJohn) {
-    console.log('Mike\'s team wins with ' +  ScoreMike + ' points');
-} else {
-    console.log('There is a draw');
-}
+// if(scoreJohn > scoreMike && scoreJohn > scoreMary) {
+//     console.log('John\'s team wins with ' + scoreJohn + ' points ');
+// } else if (scoreMike > scoreJohn && scoreMike > scoreMary) {
+//     console.log('Mike\'s team wins with ' + scoreMike + ' points ');
+// } else if (scoreMary > scoreJohn && scoreMary > scoreMike) {
+//     console.log('Mary\'s team wins with ' + scoreMary + ' points');
+// } else {
+//     console.log('There is a draw');
+// }
 
 
+
+// if(scoreJohn > scoreMike) {
+//     console.log('John\'s team wins with ' + scoreJohn + ' points ');
+// } else if (scoreMike > scoreJohn) {
+//     console.log('Mike\'s team wins with ' + scoreMike + ' points ');
+// } else {
+//     console.log('There is a draw');
 
 
 
