@@ -237,37 +237,43 @@ Operator Precedence
 // }
 
 
-const firstName = 'John';
-const age = 13;
-switch (true) {
-    case age < 13:
-        console.log(firstName + ' is a boy.');
-        break;
-    case age >= 13 && age < 20:
-        console.log(firstName + ' is a teenager.');
-        break;
-    case age >= 20 && age < 30:
-        console.log(firstName + ' is a young man.');
-        break;
-    default:
-        console.log(firstName + ' is a young man.');
+// const firstName = 'John';
+// const age = 13;
+// switch (true) {
+//     case age < 13:
+//         console.log(firstName + ' is a boy.');
+//         break;
+//     case age >= 13 && age < 20:
+//         console.log(firstName + ' is a teenager.');
+//         break;
+//     case age >= 20 && age < 30:
+//         console.log(firstName + ' is a young man.');
+//         break;
+//     default:
+//         console.log(firstName + ' is a young man.');
+// }
+
+
+
+// Truthy and Falsy values and equality operators
+
+// Falsy values: undefined, null, 0, '', NaN
+// Truthy values: NOT falsy values
+
+let height;
+
+height = 23;
+if(height || height === 0) {
+    console.log('variable is defined');
+} else {
+    console.log('variable has NOT been defined');
 }
 
+// Equality operators
+if(height === '23') {
+    console.log('The == operator does type coercion!');
+}
 
-
-
-
-
-
-// if (age < 13) {
-//     console.log(firstName + ' is a boy.');
-// } else if(age >= 13 && age < 20){
-//     console.log(firstName + ' is a teenager.');
-// } else if (age >= 20 && age < 30) {
-//     console.log(firstName + ' is a young man. ');
-// }else {
-//     console.log(firstName + ' is a man.');
-// }
 
 
 
