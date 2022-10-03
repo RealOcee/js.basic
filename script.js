@@ -191,17 +191,83 @@ Operator Precedence
 
 // Ternary Operator and Switch Statements
  
+// const firstName = 'John';
+// const age = 21;
+
+// // Ternary Operator 
+// age >= 18 ? console.log(firstName + ' drinks beer. ')
+// : console.log(firstName + ' drinks juice ');
+
+// const drink = age >= 18 ? 'beer ' : 'juice ';
+// console.log(drink);
+
+
+// Switch Statements
+
+// const job = 'teacher';
+// switch (job) {
+//     case 'teacher':
+//         console.log(firstName + ' teaches kids in coding');
+//         break;
+//     case 'driver':
+//         console.log(firstName + ' drives Bolt in Lagos');
+//         break;
+//     case 'designer':
+//         console.log(firstName + ' designs beautiful website');
+//         break;
+//     default:
+//         console.log(firstName + ' does something else ');
+// }
+
+
+// const firstName = 'John';
+// const age = 21;
+// switch (age) {
+//     case 18:
+//     case 19:
+//     case 20:
+//     case 21:
+//     case 22:
+//     case 23:
+//     case 24:
+//         console.log(firstName + ' drinks beer ');
+//         break;
+//     default:
+//         console.log(firstName + ' drink juice ');
+// }
+
+
 const firstName = 'John';
-const age = 21;
+const age = 13;
+switch (true) {
+    case age < 13:
+        console.log(firstName + ' is a boy.');
+        break;
+    case age >= 13 && age < 20:
+        console.log(firstName + ' is a teenager.');
+        break;
+    case age >= 20 && age < 30:
+        console.log(firstName + ' is a young man.');
+        break;
+    default:
+        console.log(firstName + ' is a young man.');
+}
 
-// Ternary Operator 
-age >= 18 ? console.log(firstName + ' drinks beer. ')
-: console.log(firstName + ' drinks juice ');
-
-const drink = age >= 18 ? 'beer ' : 'juice ';
-console.log(drink);
 
 
+
+
+
+
+// if (age < 13) {
+//     console.log(firstName + ' is a boy.');
+// } else if(age >= 13 && age < 20){
+//     console.log(firstName + ' is a teenager.');
+// } else if (age >= 20 && age < 30) {
+//     console.log(firstName + ' is a young man. ');
+// }else {
+//     console.log(firstName + ' is a man.');
+// }
 
 
 
