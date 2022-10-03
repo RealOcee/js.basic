@@ -149,69 +149,68 @@ Operator Precedence
 
 // If / Else statements
 
-let firstName = 'John';
-let civilStatus = 'single';
+// let firstName = 'John';
+// let civilStatus = 'single';
 
-if (civilStatus === 'married') {
-    console.log(firstName + 'is married!');
-} else {
-    console.log(firstName + ' will hopefully marry soon :)');
-}
-
-let isMarried = true;
-if (isMarried) {
-    console.log(firstName + ' is married!');
-} else {
-    console.log(firstName + ' will hopefully marry soon :)');
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/******************************
- * Boolean Logic
- */
-
-// var firstName = 'John';
-// var age = 20;
-
-// if (age < 13) {
-//     console.log(firstName + ' is a boy.');
-// } else if (age >= 13 && age < 20) { //Between 13 and 20 === age >= 13 AND age < 20
-//     console.log(firstName + ' is a teenager.');
-// } else if(age >= 20 && age < 30) {
-//     console.log(firstName + ' is a young man.');
+// if (civilStatus === 'married') {
+//     console.log(firstName + 'is married!');
 // } else {
-//     console.log(firstName + ' is a man.');
+//     console.log(firstName + ' will hopefully marry soon :)');
 // }
+
+// let isMarried = true;
+// if (isMarried) {
+//     console.log(firstName + ' is married!');
+// } else {
+//     console.log(firstName + ' will hopefully marry soon :)');
+// }
+
+
+// Boolean logic
+
+const firstName = 'John';
+const age = 20;
+
+if (age < 13) {
+    console.log(firstName + ' is a boy.');
+} else if(age >= 13 && age < 20){
+    console.log(firstName + ' is a teenager.');
+} else if (age >= 20 && age < 30) {
+    console.log(firstName + ' is a young man. ');
+}else {
+    console.log(firstName + ' is a man.');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***********************
