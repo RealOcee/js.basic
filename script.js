@@ -306,6 +306,47 @@ Operator Precedence
 
 
 
+// Functions
+
+//Syntax of functions || 
+// function name(params) {
+    
+// }
+
+
+function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+const ageJohn = calculateAge(1999)
+const ageMark = calculateAge(2000)
+const ageJane = calculateAge(1995)
+
+console.log(ageJohn, ageMark, ageJane);
+
+
+// Assign the function => year & firstName
+//  Declare the functions => function name(params) { 
+// }
+
+
+// Calculate => the year until retirement => using if/else statement to know those who has retired. 
+
+
+function yearsUntilRetirement(year, firstName) {
+    let age = calculateAge(year);
+    let retirement = 65 - age;
+
+    if (retirement > 0) {
+        console.log(firstName + ' retires in ' + retirement + ' year ');
+    } else {
+        console.log(firstName + ' is already retired ');
+    }
+}
+ yearsUntilRetirement(1990, 'John');
+ yearsUntilRetirement(1945, 'Mike');
+ yearsUntilRetirement(2002, 'Jane');
+
 
 
 
