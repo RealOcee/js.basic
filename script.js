@@ -306,47 +306,76 @@ Operator Precedence
 
 
 
-// Functions
+// FUNCTIONS
 
 //Syntax of functions || 
 // function name(params) {
-    
+// }
+// An arguments can be pass using FUNCTIONS and the ARGUMENTS can be RETURN using KEYWORDS!!!
+
+
+// function calculateAge(birthYear) {
+//     return 2018 - birthYear;
 // }
 
+// const ageJohn = calculateAge(1999)
+// const ageMark = calculateAge(2000)
+// const ageJane = calculateAge(1995)
 
-function calculateAge(birthYear) {
-    return 2018 - birthYear;
-}
+// console.log(ageJohn, ageMark, ageJane);
 
-const ageJohn = calculateAge(1999)
-const ageMark = calculateAge(2000)
-const ageJane = calculateAge(1995)
 
-console.log(ageJohn, ageMark, ageJane);
 
 
 // Assign the function => year & firstName
 //  Declare the functions => function name(params) { 
 // }
-
-
 // Calculate => the year until retirement => using if/else statement to know those who has retired. 
+//FUNCTIONS CAN CALL OTHER FUNCTIONS!!!!
 
 
-function yearsUntilRetirement(year, firstName) {
-    let age = calculateAge(year);
-    let retirement = 65 - age;
 
-    if (retirement > 0) {
-        console.log(firstName + ' retires in ' + retirement + ' year ');
-    } else {
-        console.log(firstName + ' is already retired ');
+// function yearsUntilRetirement(year, firstName) {
+//     let age = calculateAge(year);
+//     let retirement = 65 - age;
+
+//     if (retirement > 0) {
+//         console.log(firstName + ' retires in ' + retirement + ' year ');
+//     } else {
+//         console.log(firstName + ' is already retired ');
+//     }
+// }
+//  yearsUntilRetirement(1990, 'John');
+//  yearsUntilRetirement(1945, 'Mike');
+//  yearsUntilRetirement(2002, 'Jane');
+
+
+
+
+// Function Statements and Expressions
+
+//Function declaration 
+//Function whatDoYouDo(job, firstName) {} 
+
+
+//Functions expressions
+const whatDoYouDo = function (job, firstName) {
+    switch(job) {
+        case 'teacher':
+            return firstName + ' teaches kids how to code';
+        case 'driver':
+            return firstName + ' drives Bolt in Lagos';
+        case 'designer':
+            return firstName + ' designs beautiful websites';
+        default:
+            return firstName + ' does something else';
     }
 }
- yearsUntilRetirement(1990, 'John');
- yearsUntilRetirement(1945, 'Mike');
- yearsUntilRetirement(2002, 'Jane');
 
+console.log(whatDoYouDo('teacher', 'John'));
+console.log(whatDoYouDo('driver', 'Andrew'));
+console.log(whatDoYouDo('designer', 'Jane'));
+console.log(whatDoYouDo('retired', 'Favour'));
 
 
 
