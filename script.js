@@ -359,26 +359,64 @@ Operator Precedence
 
 
 //Functions expressions
-const whatDoYouDo = function (job, firstName) {
-    switch(job) {
-        case 'teacher':
-            return firstName + ' teaches kids how to code';
-        case 'driver':
-            return firstName + ' drives Bolt in Lagos';
-        case 'designer':
-            return firstName + ' designs beautiful websites';
-        default:
-            return firstName + ' does something else';
-    }
-}
+// const whatDoYouDo = function (job, firstName) {
+//     switch(job) {
+//         case 'teacher':
+//             return firstName + ' teaches kids how to code';
+//         case 'driver':
+//             return firstName + ' drives Bolt in Lagos';
+//         case 'designer':
+//             return firstName + ' designs beautiful websites';
+//         default:
+//             return firstName + ' does something else';
+//     }
+// }
 
-console.log(whatDoYouDo('teacher', 'John'));
-console.log(whatDoYouDo('driver', 'Andrew'));
-console.log(whatDoYouDo('designer', 'Jane'));
-console.log(whatDoYouDo('retired', 'Favour'));
+// console.log(whatDoYouDo('teacher', 'John'));
+// console.log(whatDoYouDo('driver', 'Andrew'));
+// console.log(whatDoYouDo('designer', 'Jane'));
+// console.log(whatDoYouDo('retired', 'Favour'));
 
 
 
+
+// Arrays 
+const names = ['John', 'Mark', 'Jane'];
+const years = new Array (1890, 2000, 2018);
+
+console.log(names);
+console.log(names.length);
+
+names[1] = 'Ben';//=> .name[] is to re-assign 'element' in the array
+
+names[names.length] = 'Mary'; //=> .length is to assign new 'element' in the array
+console.log(names);
+
+const primes = [2,6,7];
+console.log(primes.length-1); //=> .length-1 is to remove 'element-length' in the array
+
+
+
+// Different data types
+
+
+const John = ['John', 'Smith', 2000, 'designer', 'false']
+
+John.push('blue'); //=> .push is to add 'element' from behind
+
+John.unshift('Mr.'); //=> .unshift is to add 'element' from the front
+
+John.pop(); //=> .pop is to remove 'element' from behind
+
+John.shift(); //=> .shift is to add 'element' from the front
+
+console.log(John);
+
+console.log(John.indexOf(2));
+
+const isDesigner = John.indexOf('designer') === -1 ? 'John is not a designer ' : 'John is a designer'
+
+console.log(isDesigner);
 
 
 
