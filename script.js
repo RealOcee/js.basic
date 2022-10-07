@@ -381,50 +381,66 @@ Operator Precedence
 
 
 // Arrays 
-const names = ['John', 'Mark', 'Jane'];
-const years = new Array (1890, 2000, 2018);
+// const names = ['John', 'Mark', 'Jane'];
+// const years = new Array (1890, 2000, 2018);
 
-console.log(names);
-console.log(names.length);
+// console.log(names);
+// console.log(names.length);
 
-names[1] = 'Ben';//=> .name[] is to re-assign 'element' in the array
+// names[1] = 'Ben';//=> .name[] is to re-assign 'element' in the array
 
-names[names.length] = 'Mary'; //=> .length is to assign new 'element' in the array
-console.log(names);
+// names[names.length] = 'Mary'; //=> .length is to assign new 'element' in the array
+// console.log(names);
 
-const primes = [2,6,7];
-console.log(primes.length-1); //=> .length-1 is to remove 'element-length' in the array
+// const primes = [2,6,7];
+// console.log(primes.length-1); //=> .length-1 is to remove 'element-length' in the array
 
 
 
 // Different data types
 
 
-const John = ['John', 'Smith', 2000, 'designer', 'false']
+// const John = ['John', 'Smith', 2000, 'designer', 'false']
 
-John.push('blue'); //=> .push is to add 'element' from behind
+// John.push('blue'); //=> .push is to add 'element' from behind
 
-John.unshift('Mr.'); //=> .unshift is to add 'element' from the front
+// John.unshift('Mr.'); //=> .unshift is to add 'element' from the front
 
-John.pop(); //=> .pop is to remove 'element' from behind
+// John.pop(); //=> .pop is to remove 'element' from behind
 
-John.shift(); //=> .shift is to add 'element' from the front
+// John.shift(); //=> .shift is to add 'element' from the front
 
-console.log(John);
+// console.log(John);
 
-console.log(John.indexOf(2));
+// console.log(John.indexOf(2));
 
-const isDesigner = John.indexOf('designer') === -1 ? 'John is not a designer ' : 'John is a designer'
+// const isDesigner = John.indexOf('designer') === -1 ? 'John is not a designer ' : 'John is a designer'
 
-console.log(isDesigner);
-
-
+// console.log(isDesigner);
 
 
+//Coding Challenge
 
+function calculateTip(bill) {
+    let percentage;
+    if (bill < 50) {
+        percentage = .2;
+    } else if (bill >= 50 && bill < 200) {
+        percentage = .15;
+    } else {
+        percentage = .1;
+    }
+    return percentage * bill;
+}
 
+const bills = [124, 48, 268];
+const tips = [calculateTip(bills[0]), 
+calculateTip(bills[1]),
+calculateTip(bills[2])];
 
+const finalValues = [bills[0] + tips[0], bills[1] + tips[0], bills[2] + tips[2]];
 
+console.log(tips, finalValues);
 
 
 
