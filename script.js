@@ -421,26 +421,30 @@ Operator Precedence
 
 //Coding Challenge
 
-function calculateTip(bill) {
-    let percentage;
-    if (bill < 50) {
-        percentage = .2;
-    } else if (bill >= 50 && bill < 200) {
-        percentage = .15;
-    } else {
-        percentage = .1;
-    }
-    return percentage * bill;
-}
+// function calculateTip(bill) {
+//     let percentage;
+//     if (bill < 50) {
+//         percentage = .2;
+//     } else if (bill >= 50 && bill < 200) {
+//         percentage = .15;
+//     } else {
+//         percentage = .1;
+//     }
+//     return percentage * bill;
+// }
 
-const bills = [124, 48, 268];
-const tips = [calculateTip(bills[0]), 
-calculateTip(bills[1]),
-calculateTip(bills[2])];
+// const bills = [124, 48, 268];
+// const tips = [calculateTip(bills[0]), 
+// calculateTip(bills[1]),
+// calculateTip(bills[2])];
 
-const finalValues = [bills[0] + tips[0], bills[1] + tips[0], bills[2] + tips[2]];
+// const finalValues = [bills[0] + tips[0], bills[1] + tips[0], bills[2] + tips[2]];
 
-console.log(tips, finalValues);
+// console.log(tips, finalValues);
+
+
+
+// Object and Properties 
 
 
 
