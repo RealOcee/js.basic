@@ -444,9 +444,54 @@ Operator Precedence
 
 
 
+
+
 // Object and Properties 
+// const john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     job: 'Teacher',
+//     birthYear: 1999,
+//     family: ['Jane','Elo', 'Favour'],
+//     isMarried: 'false'
+// };
+
+// console.log(john.firstName);
+// console.log(john.lastName);
+// console.log(john['birthYear']);
+
+// const x = 'job';
+// console.log(john[x]);
+
+// john.job = 'designer';
+// john['isMarried'] = true;
+// console.log(john);
+
+// const jane = new Object();
+// jane.firstName = 'John';
+// jane.lastName = 'smith';
+// jane['job'] = 'teacher';
+
+// console.log(jane);
 
 
+
+
+
+//Object and Method
+const john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    job: 'Teacher',
+    birthYear: 2000,
+    family: ['Jane','Elo', 'Favour'],
+    isMarried: 'false',
+    calcAge: function() {
+        this.age = 2040 - this.birthYear;
+    }
+};
+john.calcAge();
+console.log(john);
 
 
 
