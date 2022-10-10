@@ -445,6 +445,27 @@ Operator Precedence
 
 
 // Object and Properties 
+const john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    job: 'Teacher',
+    birthYear: 1999,
+    family: ['Jane','Elo', 'Favour'],
+    isMarried: 'false'
+};
+
+console.log(john.firstName);
+console.log(john.lastName);
+console.log(john['birthYear']);
+
+const x = 'job';
+console.log(john[x]);
+
+john.job = 'designer';
+john['isMarried'] = true;
+console.log(john);
+
+
 
 
 
