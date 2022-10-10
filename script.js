@@ -478,23 +478,29 @@ Operator Precedence
 
 
 
-//Object and Method
-const john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    job: 'Teacher',
-    birthYear: 2000,
-    family: ['Jane','Elo', 'Favour'],
-    isMarried: 'false',
-    calcAge: function() {
-        this.age = 2040 - this.birthYear;
-    }
-};
-john.calcAge();
-console.log(john);
+// //Object and Method
+// const john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     job: 'Teacher',
+//     birthYear: 2000,
+//     family: ['Jane','Elo', 'Favour'],
+//     isMarried: 'false',
+//     calcAge: function() {
+//         this.age = 2040 - this.birthYear;
+//     }
+// };
+// john.calcAge();
+// console.log(john);
 
 
 
+
+// Coding Challenge
+
+const scoreJohn = (89 + 120 + 103) / 3
+const scoreMike = (116 + 94 + 123) / 3
+console.log(scoreJohn, scoreMike);
 
 
 
