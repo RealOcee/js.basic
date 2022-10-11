@@ -498,19 +498,43 @@ Operator Precedence
 
 // Coding Challenge
 
-Height
+// create the Objects - John & Mark
+// const john = {
+//     fullName: '',
+//     mass: , //Kg
+//     height: , //mm
+//     calculateBMI: function() {
+//          = () return ;
+//     }
 
-let heightJohn = 4.5; //meters
-let heightMark = 6.5; //meters
+const john = {
+    fullName: 'John Smith',
+    mass: 79 , //Kg
+    height: 5.1, //mm
+    calculateBMI: function() {
+        this.bmi = this.mass /(this.height * this.height); return this.bmi;
+    }
+}
 
-// Mass
-let massJohn = 70; //kg
-let massMark = 90; //kg
 
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 89, //Kg
+    height: 6.1, //mm
+    calculateBMI: function() {
+        this.bmi = this.mass /(this.height * this.height); return this.bmi;
+    }
+}
 
+if (john.calculateBMI() > mark.calculateBMI()) {
+    console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
+} else if (mark.bmi > john.bmi) {
+    console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi);
+} else {
+    console.log('They have the same BMI');
+}
 
-
-
+// console.log(john, mark);
 
 
 
