@@ -498,9 +498,14 @@ Operator Precedence
 
 // Coding Challenge
 
-const scoreJohn = (89 + 120 + 103) / 3
-const scoreMike = (116 + 94 + 123) / 3
-console.log(scoreJohn, scoreMike);
+Height
+
+let heightJohn = 4.5; //meters
+let heightMark = 6.5; //meters
+
+// Mass
+let massJohn = 70; //kg
+let massMark = 90; //kg
 
 
 
