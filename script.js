@@ -507,34 +507,34 @@ Operator Precedence
 //          = () return ;
 //     }
 
-const john = {
-    fullName: 'John Smith',
-    mass: 79 , //Kg
-    height: 5.1, //mm
-    calculateBMI: function() {
-        this.bmi = this.mass /(this.height * this.height); return this.bmi;
-    }
-}
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 79 , //Kg
+//     height: 5.1, //mm
+//     calculateBMI: function() {
+//         this.bmi = this.mass /(this.height * this.height); return this.bmi;
+//     }
+// }
 
 
-const mark = {
-    fullName: 'Mark Miller',
-    mass: 89, //Kg
-    height: 6.1, //mm
-    calculateBMI: function() {
-        this.bmi = this.mass /(this.height * this.height); return this.bmi;
-    }
-}
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 89, //Kg
+//     height: 6.1, //mm
+//     calculateBMI: function() {
+//         this.bmi = this.mass /(this.height * this.height); return this.bmi;
+//     }
+// }
 
-if (john.calculateBMI() > mark.calculateBMI()) {
-    console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
-} else if (mark.bmi > john.bmi) {
-    console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi);
-} else {
-    console.log('They have the same BMI');
-}
+// if (john.calculateBMI() > mark.calculateBMI()) {
+//     console.log(john.fullName + ' has a higher BMI of ' + john.bmi);
+// } else if (mark.bmi > john.bmi) {
+//     console.log(mark.fullName + ' has a higher BMI of ' + mark.bmi);
+// } else {
+//     console.log('They have the same BMI');
+// }
 
-// console.log(john, mark);
+
 
 
 
