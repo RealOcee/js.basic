@@ -512,7 +512,8 @@ Operator Precedence
 //     mass: 79 , //Kg
 //     height: 5.1, //mm
 //     calculateBMI: function() {
-//         this.bmi = this.mass /(this.height * this.height); return this.bmi;
+//         this.bmi = this.mass / (this.height * this.height);
+// return this.bmi;
 //     }
 // }
 
@@ -561,34 +562,6 @@ Operator Precedence
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********************
-* Basic operators
-*/
 
 
 
