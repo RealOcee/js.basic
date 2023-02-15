@@ -48,17 +48,26 @@ By the end of this guide, you will have a solid understanding of the fundamental
 ## **Contribution Guidelines**
 
 ---
-We welcome contributions to this guide! If you notice any errors or have suggestions for how we can improve the content, please feel free to open an **issue or a pull request.**
+We welcome contributions to this guide!
+
+If you notice any errors or have suggestions for how we can improve the content, please feel free to open an **issue or a pull request.**
+
+
+* Fork the repository to your own account.
+* Create a new branch for your changes.
+* Make your changes and commit them with clear and concise commit messages.
+* Push your changes to your forked repository.
+* Open a pull request to the original repository and include a detailed description of your changes.
 
 ---
 
 >> Thank you for choosing **A Beginner's Guide to Learning JavaScript!** 
-I hope this guide provides a helpful introduction to JavaScript programming. If you have any questions or issues, please don't hesitate to contact me => [LinkedIn](LinkedIn.com/andrewonaulogho/) or [Twitter](https://twitter.com/DiplomatTechie).
+I hope this guide provides a helpful introduction to JavaScript programming. If you have any questions or issues, please don't hesitate to contact me => [LinkedIn](https://www.linkedin.com/in/andrewonaulogho/) or [Twitter](https://twitter.com/DiplomatTechie).
 
 > If I'm not writing codes, I'm working on a **Social Impact project(SDG)**, *reading a book, listening to podcasts, or watching documentaries.*
 
->**Check more about Me** => [LinkedIn](LinkedIn.com/andrewonaulogho/)
+>**Check more about Me** => [LinkedIn](https://www.linkedin.com/in/andrewonaulogho/)
 
 
 
-**2022@[RealOcee](github.com/realocee/)**
+**2022 @ [RealOcee](github.com/realocee/)**
