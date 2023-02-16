@@ -12,7 +12,7 @@
 ## **Installation**
 
 
-You only need a *web browser(Google Chrome)* and a text editor to follow this guide. You can use any text editor you prefer. However, we recommend using a code editor like *Visual Studio Code, Atom, or Sublime Text*, which will provide helpful features like **syntax highlighting and code completion**.
+You only need a *web browser(Google Chrome)* and a text editor to follow this guide. You can use any text editor you prefer. However, I recommend using a code editor like *Visual Studio Code, Atom, or Sublime Text*, which will provide helpful features like **syntax highlighting and code completion**.
 
 
 ## **Usage**
