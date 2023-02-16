@@ -70,4 +70,4 @@ I hope this guide provides a helpful introduction to JavaScript programming. If 
 
 
 
-**2022 @ [RealOcee](github.com/realocee/)**
+**2022 @ [RealOcee](https://github.com/RealOcee)**
