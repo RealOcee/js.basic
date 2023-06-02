@@ -538,10 +538,22 @@ Operator Precedence
 
 // Loops & Iteration
 
-for (let i = 0; 0 > 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 
+let john = [ 'Andrew', 'James', 'Henry', 1999];
+for (let i = 0; i < john.length; i++) {
+    console.log(john[i]);
+}
+
+let i = 0
+while (i < john.length) {
+    console.log(john[i]);
+    i++;
+}
+
+//Loops prevent repetitions of code but still getting same functionality as it.
 
 
 
