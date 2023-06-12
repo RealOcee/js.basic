@@ -642,8 +642,56 @@ let john = {
     }
 }
 
-john.calcTips() ;
-console.log(john);
+let mark = {
+    fullName: "Mark Miller",
+    bills: [77, 475, 110, 45],
+    calcTips: function() {
+        this.tips = [];
+        this.finalValues = [];
+
+        for (let i = 0; i < this.bills.length; i++)
+        {
+            //Determine percentage based on tipping rules
+            let percentage;
+            let bill = this.bills[i];
+            
+            if (bill < 100) {
+                percentage = .2;
+            } else if (bill >= 100 && bill < 300) {
+                percentage = .1;
+            } else {
+                percentage = .25;
+            }
+
+            //Add results to the corresponding arrays
+            this.tips[i] = bill * percentage;
+            this.finalValues[i] = bill * bill * percentage;
+        }
+    }
+}
+
+function calcAverage(tips) {
+    let sum = 0;
+    for (let i = 0; i < tips.length; i++) {
+        sum = sum + tips[i];
+    }
+    return sum / tips.length;
+}
+
+// Do the calculations
+
+john.calcTips();
+mark.calcTips();
+
+john.average = calcAverage(john.tips);
+mark.average = calcAverage(mark.tips);
+console.log(john, mark);
+
+if(john.average > mark.average) {
+    console.log(john.fullName + '\'s family pays higher tips, with  an average of $' + john.average);
+} else if (mark.average > john.average) {
+    console.log(mark.fullName + '\'s family pays higher tips, with  an average of $' + john.average);
+}
 
 
 
