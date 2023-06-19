@@ -41,6 +41,7 @@ This guide covers the following topics:
 * Loops and Iteration
 * Functions
 * Objects and Arrays
+* **Projects** ==> Pig dot game using *JavaScript & DOM*
 * **More to come (Check every day for new updates)**
 
 By the end of this guide, you will have a solid understanding of the fundamentals of JavaScript programming and be ready to start building your web applications.
